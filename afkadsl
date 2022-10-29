@@ -1,0 +1,480 @@
+[33mcommit c9084dc869422ea2abb6b4fdf060de6703a495d0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: hashclash-static-release-v1.2b[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Apr 8 11:58:25 2020 +0200
+
+    Fix: undo commited local CUDA compute capability choice
+
+[33mcommit 2903ff8dfd1848cb4422ff218c78a1aa1b023a05[m
+Author: Brian J Murray <bmurray7jhu@gmail.com>
+Date:   Sat Feb 1 15:43:31 2020 -0800
+
+    Remove remaining references to deprecated variable `data`
+    
+    In d714b7a443991f65be1cd3574d46fa0fee58f82f, the bash variable `data` was deprecated and replaced with `dataupper` and `datalower`. This commit removes the remaining references to `data` and replaces them with references to either `dataupper` and `datalower`.
+
+[33mcommit 171d52a525cc754cbd06b5f68545212a9a25411e[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Tue Oct 29 18:35:32 2019 +0000
+
+    Update README.md
+
+[33mcommit 761e458f72c217c59899df31d84f35398a73074f[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Oct 29 18:06:34 2019 +0000
+
+    Updated build.sh
+
+[33mcommit e41261c2d80219ee24dd7c96b3b30c3f34d32078[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Oct 29 17:58:58 2019 +0000
+
+    Updated Travis
+
+[33mcommit d9c4ce68c82ba4b7c226a263224372cac049aabf[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Oct 29 17:50:48 2019 +0000
+
+    Travis CI
+
+[33mcommit 0b256ec945a20d00527e5c1dfda46760fed65ea9[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Thu Oct 24 12:19:35 2019 +0200
+
+    Update README.md
+
+[33mcommit 42ddab91dbd662f9ba9afa8c7ba88b01aa9fc466[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 23 19:37:18 2019 +0200
+
+    poc_no.sh: fixed case when no prefix-file was given
+
+[33mcommit 970016e44bd811f9b821c5b43baca97c2028a1db[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 23 15:23:09 2019 +0200
+
+    Update build.sh
+
+[33mcommit 952ebb3cbb8bda2838a2e2f53582bfc0dd97c71a[m
+Author: Maijin <maijin@reverseshade.com>
+Date:   Wed Oct 23 14:50:14 2019 +0200
+
+    Fix build.sh for Mac OS
+
+[33mcommit 512f5fbd6b34ec9292888936d08683fd881de3aa[m
+Author: Maijin <maijin@reverseshade.com>
+Date:   Wed Oct 23 14:55:24 2019 +0200
+
+    Fix #8 hw is ambiguous bug
+
+[33mcommit e1dfa65442fce3e4fdde9ee4d8ddc33d3c02675d[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 23 14:22:22 2019 +0200
+
+    Update build.sh
+
+[33mcommit edc27a2d85a42489c3cf9207135abe26c94b1cfa[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 23 12:07:56 2019 +0200
+
+    Update 'build.sh'
+
+[33mcommit 85893c306b933c0fb070133fac7a039401b742e7[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Wed Oct 23 12:07:13 2019 +0200
+
+    Update README.md
+
+[33mcommit df8b9e97e89f0f31edb7751077011ecf845941d6[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 23 12:05:22 2019 +0200
+
+    Added `build.sh` script for convenience
+
+[33mcommit 10d9a9e4442e308f8313e41121421ffd25f234e0[m[33m ([m[1;33mtag: hashclash-static-release-v1.2a[m[33m)[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Wed Oct 23 11:18:40 2019 +0200
+
+    Update README.md
+
+[33mcommit defcce9c707328966fb0e545e165210bb2dcbcd5[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 23 10:38:41 2019 +0200
+
+    Added missing M4 files.
+
+[33mcommit acf2a9846ee10f5be2c1bd32c3ed9af55ec20795[m[33m ([m[1;33mtag: hashclash-static-release-v1.2[m[33m)[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Oct 21 11:08:53 2019 +0200
+
+    Tweaks
+
+[33mcommit b2f253c2105900a52cc2357503fb0a2c6f39347b[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 21 09:59:04 2019 +0200
+
+    Update README.md
+
+[33mcommit dfed855051d5aa6ef373c111993fb0ee902f486a[m
+Merge: 4ceab57 1730b3d
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 21 09:58:09 2019 +0200
+
+    Merge pull request #5 from cr-marcstevens/autokillfix
+    
+    Autokillfix
+
+[33mcommit 1730b3dd01e04b1a64ad62db53cea1c5be207b4c[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Oct 21 09:56:24 2019 +0200
+
+    Tweaks to poc_no.sh and cpc.sh
+
+[33mcommit d714b7a443991f65be1cd3574d46fa0fee58f82f[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Oct 21 09:33:58 2019 +0200
+
+    poc_no.sh: allow different number of diffpaths for lower and upper, since upper is precomputed
+
+[33mcommit 6843f5cc703017df6138efd3d750ace10a7204dc[m
+Merge: 486a4fa 4ceab57
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 21 08:46:49 2019 +0200
+
+    Merge branch 'master' into autokillfix
+
+[33mcommit 4ceab57f2ae414ddc27dae170ab3754842f56a86[m
+Merge: 0df53bb 9681d8b
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 21 08:40:57 2019 +0200
+
+    Merge pull request #4 from enricobacis/patch-1
+    
+    Update cpc.sh for automatic backtracking
+
+[33mcommit 9681d8b835b59d2cf0b863ad6e2c67475558230c[m
+Author: Enrico Bacis <enrico.bacis@gmail.com>
+Date:   Sat Oct 19 21:08:14 2019 +0200
+
+    Update cpc.sh for automatic backtracking
+    
+    The `cpc.sh` script normally needs supervision as it might stall and require backtracking.
+    
+    This PR introduces automatic backtracking in the script by spawning a subshell that checks if the process terminates before a time threshold. If it doesn't, it interrupts the current computation and goes back to the previous step.
+    
+    Each step in `cpc.sh` (when using 9 collision blocks) is supposed to complete in 8 core hours. By dividing this by the number of available cores, we can determine the expected block time. We double this figure to obtain the time threshold.
+    
+    This PR also makes use of the `notify-send` program (if available on the system) to inform the user about step completions and backtrackings.
+
+[33mcommit 486a4fa4a9caa1b9b214865cabddeccb023446b5[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Oct 15 10:00:50 2019 +0200
+
+    Fixed issues in poc_no.sh:
+    - hard-coded sleeps can cause problems on machines with many cores
+    - script interupts can leave some undesirable subprocesses running that may affect subsequent runs
+    
+    Thanks to Enrico Bacis for proving the fix!
+
+[33mcommit 47943b9854b33bf6b4f7584d9b980764150dc592[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Fri Aug 23 11:41:21 2019 +0200
+
+    poc_no.sh auto kill problem fix for many-core machines
+
+[33mcommit 1f7bbc5d42937912c8c43d1b2850c03a06c02153[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Thu May 23 16:11:46 2019 +0200
+
+    Several changes to support processing colliding trails on CUDA,
+    but also some issues to solve:
+    - correctness: seemingly same solutions are frequently observed
+    - need streams to launch kernels concurrently
+    - double buffers for input and output and switch per kernel call
+
+[33mcommit 2874996497a6b69dc8f4d9f82eaeba75c8a021b1[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed May 22 11:35:03 2019 +0200
+
+    Added untested code for processing colliding trails on GPU.
+
+[33mcommit f10754d77727e203b77d0851f6d83c488fb1613f[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue May 21 15:25:36 2019 +0200
+
+    fixed md5birthdaysearch CUDA: actually read trails from the right buffer
+
+[33mcommit 16b15e8a25f3eeb4e75a2454fa93379657a025a2[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue May 21 15:11:03 2019 +0200
+
+    Started some improvements in the CUDA implementation of md5birthdaysearch.
+
+[33mcommit e8d6370d3eab375c24df6f973eb0f5bfc23d132b[m[33m ([m[1;33mtag: hashclash-static-release-v1.1-avx2[m[33m)[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Fri May 10 15:38:52 2019 +0200
+
+    First working SIMD version with basic AVX2 support (runtime use is decided at compile time)
+
+[33mcommit 0df53bb6e3d79410e8501502c365d8200153477e[m[33m ([m[1;33mtag: hashclash-static-release-v1.1[m[33m)[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Thu May 9 16:19:05 2019 +0200
+
+    Fixes issues in md5birthdaysearch:
+    - fixed datarace in birthday collision verification
+    - replaced hardcoded fixed CUDA buffer size with formula
+    - use 2x more CUDA blocks by default for better efficiency
+
+[33mcommit 91fbcf1be35cf4f817f98b1b85fcd422da87b736[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Thu May 9 16:18:36 2019 +0200
+
+    Typo: really use gzip instead of bzip2 in create_release.sh
+
+[33mcommit d0af084a48e5c94e2f1fd754746b398c1c06371a[m[33m ([m[1;33mtag: hashclash-static-release-v1.0[m[33m)[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Apr 16 14:52:42 2019 +0200
+
+    create_release.sh: fixed issue with recursive make calls and specifying Makefile.tmp
+
+[33mcommit 115cfeed239885651bd0e3b1ac1114ce736776fc[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Apr 16 12:07:38 2019 +0200
+
+    Added script to build statically build releases.
+
+[33mcommit 9df5375e5cbb7ee92579ae73a559cb8c9d8695d3[m[33m ([m[1;33mtag: linux-v0[m[33m)[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Apr 15 20:39:43 2019 +0200
+
+    Added fastcoll 1.0.0.5-1 to hashclash.
+
+[33mcommit 08a203f5598676f2975f7228ea42eb9582a6080a[m
+Merge: d833657 2f5a636
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Feb 25 20:07:56 2019 +0100
+
+    Merge pull request #3 from jsegitz/master
+    
+    print information about delay before sleep
+
+[33mcommit 2f5a636e5b3bc6898cb8ada1b8542e883c2d9f81[m
+Author: Johannes Segitz <jsegitz@suse.com>
+Date:   Mon Feb 25 16:11:03 2019 +0100
+
+    print information about delay before sleep
+
+[33mcommit d833657f4703a5534b58e25aff86eff70e3a68c2[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Jan 8 14:25:07 2019 +0100
+
+    Adding missing m4 file.
+
+[33mcommit c1159e972c078987314aa87c7287e58884ac7af4[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Fri Dec 7 14:50:23 2018 +0100
+
+    Updated m4/ax_cuda.m4 from cr-marcstevens/snippets.
+
+[33mcommit 35fe87bc5719d7d35bc5090af7ed92fb05c44a99[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Jun 27 10:40:35 2018 +0200
+
+    * Handle CUDA errors better.
+    * Print how many CUDA devices were found.
+
+[33mcommit 6b899a90936480f034e80bac2047a0194c99e0c9[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Nov 15 19:37:49 2017 +0100
+
+    Updated ax_prefix_config_h.m4: better config.h header guard name
+
+[33mcommit 5ddad0f96bc0d83cc696e7f90462f21fa50bd5b8[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Nov 13 12:26:47 2017 +0100
+
+    Update README.md
+
+[33mcommit 74acb6ff24ada77586b5256ba30b85739e52ab6d[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 12:24:46 2017 +0100
+
+    Updated README.md
+
+[33mcommit 0ef9a7f624a308898336a9cdb377bd5dee3a7f36[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 12:23:22 2017 +0100
+
+    Updated autoconf script from https://github.com/cr-marcstevens/snippets
+
+[33mcommit 16cd9219ba732f400a3cf7508ac012465dc93def[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Nov 13 12:08:53 2017 +0100
+
+    Update README.md
+
+[33mcommit 95c2619a8078990056beb7aaa59104021714ee3c[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 11:58:55 2017 +0100
+
+    Documented identical-prefix script poc_no.sh.
+
+[33mcommit 29f7c01b04b12b80f6f9e0870fd8d5c1399d7ba4[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 09:58:03 2017 +0100
+
+    dos2unix conversion
+
+[33mcommit c96829efb5a08650dd8732b3c4d6b048a12c7220[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 09:54:52 2017 +0100
+
+    Fix memory leak.
+
+[33mcommit da290f540a7c03683d1e6a2c5619c612f424defa[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 09:33:24 2017 +0100
+
+    Fixed bug
+
+[33mcommit 56f91a4d500a3949deb2876d27602f93ce957a2a[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Nov 13 09:20:52 2017 +0100
+
+    * Some refinements.
+    
+    * Added identical-prefix collision script: poc_no.sh
+
+[33mcommit 09f9e76a5d643104e9c904dab402be12a9250b26[m
+Merge: 1a499ae 7c073df
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Wed Oct 25 11:45:06 2017 +0200
+
+    Merge pull request #2 from cr-marcstevens/cuda
+    
+    By default also build sha1_nearcollisionattack
+
+[33mcommit 7c073df1effcbc2f0722143e55fb8358ee6ceb67[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 25 11:43:37 2017 +0200
+
+    By default also build sha1_nearcollisionattack
+
+[33mcommit 1a499ae28176aedcc3b8babc0e3e7b1aee898914[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Oct 24 14:07:10 2017 +0200
+
+    Removed template files which are hardcoded in cpc.sh
+
+[33mcommit 2f14b6e8189108d71900ae0242c7ab1dc7f04dd9[m
+Merge: f862234 cbaabee
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Tue Oct 24 14:03:21 2017 +0200
+
+    Merge pull request #1 from cr-marcstevens/cuda
+    
+    Cuda
+
+[33mcommit cbaabee84b22198dc803178c2593bfe8bef036bd[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Tue Oct 24 14:02:16 2017 +0200
+
+    Update cpc.sh
+    
+    always try to use CUDA in cpc.sh
+
+[33mcommit 29c92ac1cfdeaf9dfe8b724e1d63615be18a20a7[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Tue Oct 24 14:00:58 2017 +0200
+
+    Update README.md
+
+[33mcommit 3e230b17ece2156edc23e07a0b8061e5d586a480[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Tue Oct 24 12:45:54 2017 +0200
+
+    CUDA compilation fixes.
+    Better cuda runtime configuration.
+
+[33mcommit e04d54bb51749930cac258c88a70ec06889ba2eb[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 18 13:59:06 2017 +0200
+
+    Small fixes for CUDA setup
+
+[33mcommit 5d83791f9c15856b45beed6fc0d220dd87c2fefe[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 18 10:28:39 2017 +0200
+
+    Forget to add m4/ax_cuda.m4
+
+[33mcommit 65394dba42efbbe852d860ed436cfca2ac4c3bfe[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 18 09:26:18 2017 +0200
+
+    Added CUDA support
+
+[33mcommit f862234c749cb929ebfaeb2f99bee26c5bcd4f15[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 16 13:08:04 2017 +0200
+
+    Update README.md
+
+[33mcommit 2a5f65d96128a684d050b4d95ccdad8c5b1bf5b5[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 16 13:06:58 2017 +0200
+
+    Update README.md
+
+[33mcommit 97814bc297d860aca07a1552594ecd5180f9ccb5[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 16 13:06:42 2017 +0200
+
+    Update README.md
+
+[33mcommit c4c88087574f360654d81ea336688efe6c1de312[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Oct 16 13:04:45 2017 +0200
+
+    Improved cpc.sh script: enabled calling from any working directory
+
+[33mcommit d1ba26c06341016cb6597e40be1b362b41deadbb[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Mon Oct 16 11:18:21 2017 +0200
+
+    Update README.md
+
+[33mcommit 98233a828669d42072668f66a0fd9a4a9ce25c0a[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Mon Oct 16 10:35:36 2017 +0200
+
+    Improved cpc script
+
+[33mcommit 79bc0a5f1ced18336d8691807da4aa96e619bafe[m
+Author: Marc Stevens <stevens@florence.cr.cwi.nl>
+Date:   Sun Oct 15 09:59:27 2017 +0200
+
+    Small fixes
+
+[33mcommit ae53b82b11a267d2358371040d5db5a2b9ff62ee[m
+Author: Marc Stevens <stevens@florence.cr.cwi.nl>
+Date:   Sun Oct 15 09:58:06 2017 +0200
+
+    Added Chosen-prefix collision generator script
+
+[33mcommit d998d741a8d64a65905ef998305c4fa4d1a0e591[m
+Author: cr-marcstevens <github@marc-stevens.nl>
+Date:   Wed Oct 11 18:24:01 2017 +0200
+
+    Improved install_boost.sh
+
+[33mcommit f2e8d2cfe660a163f9e15e04d4f3618ce4e977cb[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Wed Oct 11 17:38:22 2017 +0200
+
+    Update README.md
+
+[33mcommit 4bfa866a6a816286a9c41a32dfacaac5d2e5f9e3[m
+Author: Marc Stevens <cr-marcstevens@users.noreply.github.com>
+Date:   Wed Oct 11 17:36:33 2017 +0200
+
+    Update README.md
